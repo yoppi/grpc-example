@@ -1,4 +1,4 @@
-require_relative "proto/hellowold_services"
+require_relative "../proto/hellowold_services"
 
 def main
   stub = Helloworld::Greeter::Stub.new('localhost:11111')
